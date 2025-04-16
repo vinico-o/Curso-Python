@@ -53,3 +53,4 @@ FuncaoGlobal()
 FuncaoLocal()
 FuncaoGlobal()
 #print(var_local) #e gerado um erro, pois var_local so e visivel na FuncaoLocal
+

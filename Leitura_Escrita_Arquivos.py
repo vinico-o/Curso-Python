@@ -15,3 +15,9 @@ arquivo.close()
 arquivo = open("teste.txt", "w")
 arquivo.write("Vinicius Mardegan")
 arquivo.close()
+
+#para fechar os arquivos de forma automatica, utilizamos a declaracao with
+with arquivo.open("teste.txt", "r") as arquivo:
+    conteudo = arquivo.read()
+    print(conteudo)
+#o arquivo e fechado automaticamente ao acabar o bloco

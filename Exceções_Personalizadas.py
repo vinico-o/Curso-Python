@@ -11,5 +11,5 @@ try:
     positivo(numero)
 except Exception as e: #a excecao e capturada utilizando a varivael "e"
     print(f"Erro: {e}") #aqui, utilizamos f antes da string para expecificar que utilizaremos o valor da variavel na impressao
-                            #e str(e)
+                        #Nesse caso, da variavel e, que e uma excecao
 
